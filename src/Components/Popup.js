@@ -8,7 +8,6 @@ const Popup = (props) => {
           x
         </span>
         {props.content}
-        {props.content}
       </div>
     </div>
   );

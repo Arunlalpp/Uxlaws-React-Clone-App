@@ -22,7 +22,7 @@ function Navbar(props) {
                 content={
                   <>
                     <div className="popup-content">
-                      <h1>Arunlalpp</h1>
+                      <h1>Aesthetic Usability Effect</h1>
                     </div>
                   </>
                 }
