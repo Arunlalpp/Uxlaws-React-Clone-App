@@ -1,0 +1,30 @@
+.popup-box {
+  position: fixed;
+  background: #000000;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  background: #0000;
+  overflow: auto;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  color: aliceblue;
+  line-height: 20px;
+  font-size: 30px;
+  transform: translate(40rem, 0.5rem);
+}
+
+.popup-content h1 {
+  color: red;
+}
