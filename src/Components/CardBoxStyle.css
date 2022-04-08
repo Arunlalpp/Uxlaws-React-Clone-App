@@ -3,13 +3,14 @@
 {
     width: 100%;
     background: black;
+    display: flex;
 }
 .container
 {
     max-width: 98%;
-    margin: 0 auto;
-    width: 30%;
+    width: 35%;
     background-color: #ffff;
+    margin-left: 22rem;
 }
 .box-text
 {
@@ -31,4 +32,52 @@
 .end-box
 {
     background-color:  rgb(80, 100, 133);
+    padding: 3.5rem;
+}
+.wrapper-text
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    max-width: 43%;
+}
+.wrapper-text span
+{
+    color: antiquewhite;
+    font-size: 4.5rem;
+    font-family: monospace;
+    margin-top: 10rem;
+    margin-left: 0.2rem;
+}
+hr
+{
+    width: 3rem;
+    height: 0.1rem;
+    margin: 0;
+}
+.wrapper-text p
+{
+    color: antiquewhite;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-family: monospace;
+}
+.flex-button
+{
+    margin-left: 5rem;
+}
+.end-button
+{
+    width: 11rem;
+    height: 3.2rem;
+    text-align: center;
+    background-color: rgba(28,28,28);
+    outline: none;
+    border: none;
+    color: #ffff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: monospace;
+    cursor: pointer;
+    letter-spacing: 0.1em;
 }
