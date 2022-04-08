@@ -1,8 +1,8 @@
 import React from "react";
-import CardBoxLeft from "./CardBoxLeft";
+import CardButton from "./CardButton";
 import Navbar from "./Navbar";
 
-function CardBoxes(props) {
+function CardBoxes() {
   return (
     <div>
       <div className="box-container">
@@ -29,11 +29,12 @@ function CardBoxes(props) {
             <hr></hr>
             <p>Users often perceive aesthetically pleasing design as design that’s more usable.</p>
           </div>
-          <CardBoxLeft/>
+          <CardButton/>
         </div>
       </div>
       <Navbar />
     </div>
+    
   );
 }
 

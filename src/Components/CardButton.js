@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CardBoxLeft() {
+function CardButton() {
   return (
     <div className='flex-button'>
         <button className='end-button'>LEARN MORE</button>
@@ -8,4 +8,4 @@ function CardBoxLeft() {
   )
 }
 
-export default CardBoxLeft
+export default CardButton
