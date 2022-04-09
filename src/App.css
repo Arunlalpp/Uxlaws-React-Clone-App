@@ -50,13 +50,18 @@ body {
     letter-spacing: 1px;
     transition: 0.2s ease-in-out;
   }
+  .nav-toggle
+  {
+    padding-right: 1rem;
+
+  }
   .nav-button
   {
     border: none;
     background: #0000;
     border: solid 1px #fff;
-    width: 6rem;
-    height: 2.5rem;
+    width: 6.5rem;
+    height: 2.6rem;
     display: flex;
     align-items: center;
     margin-left: 0.5rem;
@@ -64,16 +69,18 @@ body {
   }
   .button-text
   {
-    font-size: 1rem;
+    font-size: 15px;
     color: #fff;
+    margin-left: 0.4rem;
     text-transform: uppercase;
+    font-weight: 600;
   }
   .toggle svg
   {
     fill: #fff;
-    width: 4rem;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
+    width: 3.5rem;
+    margin-top: 0.3rem;
+    margin-left: 0.7rem;
   }
   .name 
   {
