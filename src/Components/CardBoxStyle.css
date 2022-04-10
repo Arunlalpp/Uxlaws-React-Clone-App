@@ -2,16 +2,16 @@
     width: 100%;
     background: black;
     display: flex;
-    padding-top: 5rem;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-right: 1rem;
 }
 
 .container {
     max-width: 98%;
-    width: 45%;
-    height: 75vh;
-    background-color: #ffff;
-    margin-left: 22rem;
-    margin-bottom: 15rem;
+    width: 60vh;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 7rem;
 }
 
 .box-text {
@@ -35,11 +35,16 @@
     padding: 3.5rem;
 }
 
-.wrapper-text {
+.wrapper {
     display: flex;
     flex-direction: column;
-    padding-left: 5rem;
-    max-width: 50%;
+    max-width: 23%;
+}
+
+.wrapper-text {
+
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
 
 .wrapper-text span {
@@ -86,4 +91,16 @@ hr {
 
 .end-button:hover {
     background-color: #2e2d2d;
+}
+
+@media screen and (max-width:600px) {
+    .wrapper {
+        display: none;
+
+    }
+
+    .container {
+        margin-left: 3rem;
+        max-width: 50%;
+    }
 }
