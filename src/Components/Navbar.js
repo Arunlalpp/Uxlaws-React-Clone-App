@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Popup from "./Popup";
+import PopupContent from "./PopupContent";
 
 function Navbar(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,9 +22,7 @@ function Navbar(props) {
               <Popup
                 content={
                   <>
-                    <div className="popup-content">
-                      <h1>Aesthetic Usability Effect</h1>
-                    </div>
+                  <PopupContent />
                   </>
                 }
                 handleClose={togglePopup}

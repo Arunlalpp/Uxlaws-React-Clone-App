@@ -1,7 +1,7 @@
 import "./App.css";
+import "./Components/PopupStyle.css";
 import './Components/CardBoxStyle.css';
 import './Components/CardboxLeftStyle.css';
-import "./Components/PopupStyle.css";
 import CardBoxes from "./Components/CardBoxes";
 
 function App() {
