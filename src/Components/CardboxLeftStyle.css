@@ -93,4 +93,16 @@ hr {
     background-color: #2e2d2d;
 }
 
+@media screen and (max-width:600px) {
+    .wrapper-1 {
+        display: none;
+
+    }
+
+    .container-1 {
+        margin-left: 3rem;
+        max-width: 50%;
+    }
+}
+
 

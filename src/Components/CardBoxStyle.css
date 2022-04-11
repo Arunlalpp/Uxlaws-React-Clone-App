@@ -1,3 +1,7 @@
+.black
+{
+    background: black;
+}
 .box-container {
     width: 100%;
     background: black;
@@ -91,6 +95,32 @@ hr {
 
 .end-button:hover {
     background-color: #2e2d2d;
+}
+
+
+.top-scroll-button
+{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-scroll-button button
+{
+    outline: none;
+    border: none;
+    color: rgb(244, 241, 208);
+    background: transparent;
+    cursor: pointer;
+}
+.scroll-btn
+{
+    color: aliceblue;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
 }
 
 @media screen and (max-width:600px) {
