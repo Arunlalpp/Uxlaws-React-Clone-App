@@ -17,6 +17,17 @@ function Welcome(props) {
           <li>
             <a href="/">LAWS OF UX</a>
           </li>
+          <div className="onchange-event">
+          <li>
+            <a href="/">prev</a>
+          </li>
+          <div>
+          <hr className="nav-line"></hr>
+          </div>
+          <li>
+            <a href="/">next</a>
+          </li>
+          </div>
         </ul>
         <div className="nav-toggle">
           <button className="nav-button" onClick={togglePopup}>

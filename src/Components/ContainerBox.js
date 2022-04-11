@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContainerBox() {
   return (
-    <div className='container-box-bg' style={{backgroundColor:"rgb(123, 178, 77)"}}>
+    <div className='container-box-bg' style={{backgroundColor:"rgb(80, 100, 133)"}}>
         <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
               <g fill="none" fill-rule="evenodd">
                 <circle

@@ -2,6 +2,7 @@ import "./App.css";
 import "./Components/PopupStyle.css";
 import './Components/CardBoxStyle.css';
 import './Components/CardboxLeftStyle.css';
+import './Components/ContainerStyle.css';
 import CardBoxes from "./Components/CardBoxes";
 import Welcome from "./Components/Welcome";
 
