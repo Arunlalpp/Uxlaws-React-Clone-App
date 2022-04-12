@@ -78,6 +78,11 @@
     font-weight: 600;
     font-family: sans-serif;
 }
+.big-para
+{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
 .big-para span
 {
     color: #ffff;
@@ -85,7 +90,6 @@
     line-height: 1.5;
     font-family: sans-serif;
     font-weight: 500;
-    margin-bottom: 2rem;
 }
 .wrapper-content-box a
 {
@@ -94,4 +98,24 @@
     font-size: 1.2rem;
     font-family: sans-serif;
     border-bottom: solid 1px #ffff;
+}
+.container-link
+{
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+.container-link a
+{
+    color: #ffff;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+.link-separate
+{
+    color: #ffff;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 600;
 }
