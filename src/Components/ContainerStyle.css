@@ -25,6 +25,14 @@
 .container-text {
   width: 30%;
 }
+
+.container-text h1
+{
+    font-size: 1.5rem;
+    color: #ffff;
+    font-weight: 500;
+    font-family: monospace;
+}
 .container-text span {
   font-size: 3rem;
   color: #ffff;
@@ -59,6 +67,11 @@
     margin-left: 1rem;
     text-transform: uppercase;
 }
+.top-para
+{
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
 .para-black
 {
     color: #ffff;
@@ -75,6 +88,7 @@
     color: #ffff;
     margin-top: 2rem;
     font-size: 1.2rem;
+    line-height: 1.8;
     font-weight: 600;
     font-family: sans-serif;
 }
@@ -104,6 +118,10 @@
     padding-top: 2.5rem;
     padding-bottom: 1rem;
 }
+.container-link span 
+{
+    padding-bottom: 5rem;
+}
 .container-link a
 {
     color: #ffff;
@@ -118,4 +136,61 @@
     font-size: 1.1rem;
     font-family: sans-serif;
     font-weight: 600;
+}
+
+.wrapper-card-next
+{
+    background-color: rgb(196, 81, 157);
+}
+.next-text-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.next-text-box span
+{
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.next-text-box a
+{
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.5rem;
+    border-bottom: none;
+}
+
+@media screen and (max-width:600px) {
+    .onchange-event
+    {
+        display: none;
+    }
+    .container-box-bg svg
+    {
+        width: 40%;
+        margin-left: 3rem;
+        margin-top: 10rem;
+    }
+    .container-text span
+    {
+        font-size: 2rem;
+    }
+    .wrapper-content-box
+    {
+        max-width: 95%;
+    }
+    .para-black
+    {
+        font-size: 1rem;
+    }
+    .para-flex
+    {
+        flex-direction: column;
+    }
+
 }

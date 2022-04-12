@@ -4,13 +4,14 @@ import './ButtonStyle.css';
 import Navbar from "./Navbar";
 import ScrollButton from "./ScrollButton";
 import Welcome from "./Welcome";
+import {Link} from 'react-router-dom';
 
 function CardBoxes(props) {
   return (
     <div className="black">
       <Navbar />
       <div className="box-container">
-        <a href="/Welcome" className="container">
+        <a href ="/welcome" className="container">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
