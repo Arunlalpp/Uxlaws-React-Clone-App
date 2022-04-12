@@ -1,5 +1,6 @@
 import React from "react";
 import CardButton from "./CardButton";
+import './ButtonStyle.css';
 import Navbar from "./Navbar";
 import ScrollButton from "./ScrollButton";
 import Welcome from "./Welcome";

@@ -1,0 +1,23 @@
+.flex-button {
+    margin-left: 5rem;
+}
+
+.end-button {
+    width: 11rem;
+    height: 3.2rem;
+    text-align: center;
+    background-color: rgba(28, 28, 28);
+    outline: none;
+    border: none;
+    color: #ffff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: monospace;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    transition: all 0.5s;
+}
+
+.end-button:hover {
+    background-color: #2e2d2d;
+}
