@@ -8,19 +8,15 @@ import CardBoxes from "./Components/CardBoxes";
 import About from "./Components/About";
 import Welcome from "./Components/Welcome";
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom'; 
+import {Switch, Route} from 'react-router-dom'; 
 
 
 function App() {
   return (
-   <div className="App">
-   <Router>
-   <Route path='/' component={CardBoxes} exact/>   
-   <Route path='/About' component={About} exact/>   
-   </Router>
-   </div>
-   
-  );
+    <>
+   <Welcome />
+    </>
+  )
 }
 export default App;
 
