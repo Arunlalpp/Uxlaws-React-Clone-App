@@ -3,15 +3,13 @@ import CardButton from "./CardButton";
 import './ButtonStyle.css';
 import Navbar from "./Navbar";
 import ScrollButton from "./ScrollButton";
-import Welcome from "./Welcome";
-import {Link} from 'react-router-dom';
 
 function CardBoxes(props) {
   return (
     <div className="black">
       <Navbar />
       <div className="box-container">
-        <a href ="/welcom" className="container">
+         <a href ='/Welcome' className="container">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -58,7 +56,7 @@ function CardBoxes(props) {
         </div>
 
       <div className="box-container-1">
-        <div className="container-1">
+        <a href="/Welcome" className="container-1">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -66,7 +64,7 @@ function CardBoxes(props) {
                 <path d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"></path>
               </svg>
             </div>
-            <h1>{props.head}</h1>
+            <h1>Doherty Threshold</h1>
           </div>
           <div className="end-box-1">
             <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
@@ -101,19 +99,19 @@ function CardBoxes(props) {
               </g>
             </svg>
           </div>
-        </div>
+        </a>
         <div className="wrapper-1">
           <div className="wrapper-text-1">
             <span>02</span>
             <hr></hr>
-            <p>{props.para}</p>
+            <p>Productivity soars when a computer and its users interact at a pace 400ms that ensures that neither has to wait on the other.</p>
           </div>
           <CardButton />
         </div>
       </div>
 
       <div className="box-container">
-        <div className="container">
+        <a href="/Welcome" className="container">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -141,7 +139,7 @@ function CardBoxes(props) {
               </g>
             </svg>
           </div>
-        </div>
+        </a>
         <div className="wrapper">
           <div className="wrapper-text">
             <span>03</span>

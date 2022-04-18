@@ -4,18 +4,24 @@ import './Components/CardBoxStyle.css';
 import './Components/CardboxLeftStyle.css';
 import './Components/ContainerStyle.css';
 import './Components/ButtonStyle.css';
+import { render } from "react-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 import CardBoxes from "./Components/CardBoxes";
-import About from "./Components/About";
 import Welcome from "./Components/Welcome";
-import React, { Component } from 'react';
-import {Switch, Route} from 'react-router-dom'; 
-
-
+const rootElement = document.getElementById("root");
 function App() {
-  return (
-    <>
-   <Welcome />
-    </>
+  render(
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<CardBoxes />} />
+        <Route path="Welcome" element={<Welcome />} />
+      </Routes>
+    </BrowserRouter>,
+    rootElement
   )
 }
 export default App;
