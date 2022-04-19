@@ -9,7 +9,7 @@ function CardBoxes(props) {
     <div className="black">
       <Navbar />
       <div className="box-container">
-         <a href ='/Welcome' className="container">
+         <a href ='/Page_1' className="container">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -56,7 +56,7 @@ function CardBoxes(props) {
         </div>
 
       <div className="box-container-1">
-        <a href="/Welcome" className="container-1">
+        <a href="/Page_2" className="container-1">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -111,7 +111,7 @@ function CardBoxes(props) {
       </div>
 
       <div className="box-container">
-        <a href="/Welcome" className="container">
+        <a href="/Page_3" className="container">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -154,7 +154,7 @@ function CardBoxes(props) {
       </div>
 
       <div className="box-container-1">
-        <div className="container-1">
+        <a  href="/Page_4"className="container-1">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -456,7 +456,7 @@ function CardBoxes(props) {
               ></path>
             </svg>
           </div>
-        </div>
+        </a>
         <div className="wrapper-1">
           <div className="wrapper-text-1">
             <span>04</span>
@@ -471,7 +471,7 @@ function CardBoxes(props) {
       </div>
 
       <div className="box-container">
-        <div className="container">
+        <a href="/Page_5" className="container">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -497,7 +497,7 @@ function CardBoxes(props) {
               </g>
             </svg>
           </div>
-        </div>
+        </a>
         <div className="wrapper">
           <div className="wrapper-text">
             <span>05</span>
@@ -513,7 +513,7 @@ function CardBoxes(props) {
       </div>
 
       <div className="box-container-1">
-        <div className="container-1">
+        <a href="/Page_6" className="container-1">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -605,7 +605,7 @@ function CardBoxes(props) {
               </g>
             </svg>
           </div>
-        </div>
+        </a>
         <div className="wrapper-1">
           <div className="wrapper-text-1">
             <span>06</span>
@@ -620,7 +620,7 @@ function CardBoxes(props) {
       </div>
 
       <div className="box-container">
-        <div className="container">
+        <a href="/Page_7" className="container">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -661,7 +661,7 @@ function CardBoxes(props) {
               ></circle>
             </svg>
           </div>
-        </div>
+        </a>
         <div className="wrapper">
           <div className="wrapper-text">
             <span>07</span>
