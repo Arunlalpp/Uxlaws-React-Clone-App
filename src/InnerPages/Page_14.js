@@ -23,13 +23,13 @@ function Welcome(props) {
           </li>
           <div className="onchange-event">
           <li>
-            <a href="/Page_2">prev</a>
+            <a href="/Page_13">prev</a>
           </li>
           <div>
           <hr className="nav-line"></hr>
           </div>
           <li>
-            <a href="/Page_4">next</a>
+            <a href="/Page_15">next</a>
           </li>
           </div>
         </ul>
@@ -55,58 +55,72 @@ function Welcome(props) {
         </div>
       </nav>
       <div className="wrapper-link-container">
-      <div className="wrapper-container" style={{backgroundColor: 'rgb(123, 178, 77)'}}>
+      <div className="wrapper-container" style={{backgroundColor: 'rgb(190, 170, 72)'}}>
         <div className="container-box-bg">
           <div className="container-text">
-            <h1>03/20</h1>
-            <span>Fitt's Law</span>
+            <h1>14/20</h1>
+            <span>Parkinson's Law</span>
           </div>
-          <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 598 597">
               <g
-                stroke="#F4F1D0"
-                stroke-width="30"
                 fill="none"
                 fill-rule="evenodd"
+                transform="rotate(-45 293.76881 309.77343)"
               >
-                <circle cx="282.882" cy="282.882" r="267.882"></circle>
-                <circle cx="282.861" cy="282.861" r="192.861"></circle>
-                <circle cx="283.212" cy="283.212" r="119.212"></circle>
-                <circle cx="283.213" cy="283.213" r="45.213"></circle>
+                <circle
+                  cx="305.5"
+                  cy="305.5"
+                  r="54.5"
+                  fill="#000"
+                  opacity=".2"
+                ></circle>
+                <path
+                  fill="#F4F1D0"
+                  fill-rule="nonzero"
+                  stroke="#F4F1D0"
+                  stroke-width="5"
+                  d="M558 251l-9.69375 9.69375 38.3625 38.43125H503v13.75h83.66875l-38.3625 38.43125L558 361l55-55zM55 362l9.69375-9.69375-38.3625-38.43125H110v-13.75H26.33125l38.3625-38.43125L55 252 0 307zM251 55l9.69375 9.69375 38.43125-38.3625V110h13.75V26.33125l38.43125 38.3625L361 55 306 0zM362 557l-9.69375-9.69375-38.43125 38.3625V502h-13.75v83.66875l-38.43125-38.3625L252 557l55 55z"
+                ></path>
+                <path
+                  fill="#F4F1D0"
+                  fill-rule="nonzero"
+                  d="M114 115v381h383V115H114zM94 95h423v421H94V95z"
+                ></path>
               </g>
             </svg>
         </div>
         <ContainerContent head="overview" />
-        <ContainerPara para="The time to acquire a target is a function of the distance to and size of the target." />
+        <ContainerPara para="Any task will inflate until all of the available time is spent." />
         <ContainerContent head="KEY TAKEAWAYS" />
         <ContainerFlexpara
           flexpara="
-          Touch targets should be large enough for users to both discern what it is and to accurately select them."
+          Any errand will blow up until the entirety of the accessible time is spent."
         />
-        <div className="wrapper-card">
+       <div className="wrapper-card">
       <div className="wrapper-content-box">
       <div className='container-button-top'>
-      <button className='container-button' style={{backgroundColor: 'rgb(123, 178, 77)'}}>Download Poster</button>
+      <button className='container-button' style={{backgroundColor: 'rgb(190, 170, 72)'}}>Download Poster</button>
     </div>
       </div>
     </div>
         <ContainerContent head="ORIGINS" />
-        <Containerbigpara bigpara="In 1954, psychologist Paul Fitts, examining the human motor system, showed that the time required to move to a target depends on the distance to it, yet relates inversely to its size. By his law, fast movements and small targets result in greater error rates, due to the speed-accuracy trade-off. Although multiple variants of Fitts’ law exist, all encompass this idea. Fitts’ law is widely applied in user experience (UX) and user interface (UI) design. For example, this law influenced the convention of making interactive buttons large (especially on finger-operated mobile devices)—smaller buttons are more difficult (and time-consuming) to click. Likewise, the distance between a user’s task/attention area and the task-related button should be kept as short as possible." />
+        <Containerbigpara bigpara="Articulated by Cyril Northcote Parkinson as part of the first sentence of a humorous essay published in The Economist in 1955 and since republished online, it was reprinted with other essays in the book Parkinson's Law: The Pursuit of Progress (London, John Murray, 1958). He derived the dictum from his extensive experience in the British Civil Service." />
         <ContainerContent head="FURTHER READING" />
         <ContainerLinks
-          linktext="Fitts’s Law: The Importance of Size and Distance in UI Design"
-          linksaparate="Interaction Design Foundation"
-        />
-        <ContainerLinks
-          linktext="Fitts’s Law on Wikipedia"
+          linktext="Parkinson’s Law on Wikipedia"
           linksaparate="Wikipedia"
+        />
+         <ContainerLinks
+          linktext="Parkinson’s Law: Why Constraints Are The Best Thing You Can Work With"
+          linksaparate="Louis Chew | Medium.com"
         />
       </div>
     </div>
-    <div className="wrapper-card-next"style={{backgroundColor:'rgb(72, 151, 190)'}}>
+    <div className="wrapper-card-next"style={{backgroundColor:'rgb(48, 126, 199)'}}>
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_4' className='next-link'>Hick's Law</a>
+          <a href='/Page_15' className='next-link'>Peak-End Rule</a>
           </div>
       </div>
     </div>

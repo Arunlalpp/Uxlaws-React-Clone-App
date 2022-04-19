@@ -23,13 +23,13 @@ function Welcome(props) {
           </li>
           <div className="onchange-event">
           <li>
-            <a href="/Page_5">prev</a>
+            <a href="/Page_8">prev</a>
           </li>
           <div>
           <hr className="nav-line"></hr>
           </div>
           <li>
-            <a href="/Page_7">next</a>
+            <a href="/Page_10">next</a>
           </li>
           </div>
         </ul>
@@ -55,101 +55,161 @@ function Welcome(props) {
         </div>
       </nav>
       <div className="wrapper-link-container">
-      <div className="wrapper-container" style={{backgroundColor: 'rgb(73, 164, 109)'}}>
+      <div className="wrapper-container" style={{backgroundColor: 'rgb(128, 73, 94)'}}>
         <div className="container-box-bg">
           <div className="container-text">
-            <h1>06/20</h1>
-            <span>Law of Common Region</span>
+            <h1>09/20</h1>
+            <span>Law of Similarity</span>
           </div>
-          <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 566 565" xmlns="http://www.w3.org/2000/svg">
               <g fill="none" fill-rule="evenodd">
-                <path fill-opacity=".1" fill="#000" d="M0 0h566v566H0z"></path>
-                <path
-                  fill-opacity=".1"
-                  fill="#000"
-                  d="M40 40h486v486H40z"
-                ></path>
-                <path
-                  fill-opacity=".1"
-                  fill="#000"
-                  d="M80 80h406v406H80z"
-                ></path>
+                <circle fill="#F4F1D0" cx="48.5" cy="48.5" r="48.5"></circle>
                 <circle
                   fill-opacity=".2"
                   fill="#000"
-                  cx="168"
-                  cy="168"
-                  r="48"
+                  cx="166.5"
+                  cy="48.5"
+                  r="48.5"
+                ></circle>
+                <circle fill="#F4F1D0" cx="283.5" cy="48.5" r="48.5"></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="400.5"
+                  cy="48.5"
+                  r="48.5"
                 ></circle>
                 <circle
                   fill-opacity=".2"
                   fill="#000"
-                  cx="284"
-                  cy="168"
-                  r="48"
+                  cx="517.5"
+                  cy="48.5"
+                  r="48.5"
                 ></circle>
                 <circle
                   fill-opacity=".2"
                   fill="#000"
-                  cx="398"
-                  cy="168"
-                  r="48"
+                  cx="48.5"
+                  cy="165.5"
+                  r="48.5"
                 ></circle>
                 <circle
                   fill-opacity=".2"
                   fill="#000"
-                  cx="167.209"
-                  cy="282.437"
-                  r="47.247"
-                ></circle>
-                <circle
-                  fill="#F4F1D0"
-                  cx="283.936"
-                  cy="282.437"
-                  r="47.247"
+                  cx="166.5"
+                  cy="165.5"
+                  r="48.5"
                 ></circle>
                 <circle
                   fill-opacity=".2"
                   fill="#000"
-                  cx="398"
-                  cy="282"
-                  r="48"
+                  cx="283.5"
+                  cy="165.5"
+                  r="48.5"
+                ></circle>
+                <circle fill="#F4F1D0" cx="400.5" cy="165.5" r="48.5"></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="517.5"
+                  cy="165.5"
+                  r="48.5"
                 ></circle>
                 <circle
                   fill-opacity=".2"
                   fill="#000"
-                  cx="168"
-                  cy="398"
-                  r="48"
+                  cx="48.5"
+                  cy="282.5"
+                  r="48.5"
                 ></circle>
                 <circle
                   fill-opacity=".2"
                   fill="#000"
-                  cx="284"
-                  cy="398"
-                  r="48"
+                  cx="166.5"
+                  cy="282.5"
+                  r="48.5"
+                ></circle>
+                <circle fill="#F4F1D0" cx="283.5" cy="282.5" r="48.5"></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="400.5"
+                  cy="282.5"
+                  r="48.5"
                 ></circle>
                 <circle
                   fill-opacity=".2"
                   fill="#000"
-                  cx="398"
-                  cy="398"
-                  r="48"
+                  cx="517.5"
+                  cy="282.5"
+                  r="48.5"
+                ></circle>
+                <circle fill="#F4F1D0" cx="48.5" cy="399.5" r="48.5"></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="166.5"
+                  cy="399.5"
+                  r="48.5"
+                ></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="283.5"
+                  cy="399.5"
+                  r="48.5"
+                ></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="400.5"
+                  cy="399.5"
+                  r="48.5"
+                ></circle>
+                <circle fill="#F4F1D0" cx="517.5" cy="399.5" r="48.5"></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="48.5"
+                  cy="516.5"
+                  r="48.5"
+                ></circle>
+                <circle fill="#F4F1D0" cx="166.5" cy="516.5" r="48.5"></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="283.5"
+                  cy="516.5"
+                  r="48.5"
+                ></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="400.5"
+                  cy="516.5"
+                  r="48.5"
+                ></circle>
+                <circle
+                  fill-opacity=".2"
+                  fill="#000"
+                  cx="517.5"
+                  cy="516.5"
+                  r="48.5"
                 ></circle>
               </g>
             </svg>
         </div>
         <ContainerContent head="overview" />
-        <ContainerPara para="Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary." />
+        <ContainerPara para="The human eye tends to perceive similar elements in a design as a complete picture, shape, or group, even if those elements are separated." />
         <ContainerContent head="KEY TAKEAWAYS" />
         <ContainerFlexpara
           flexpara="
-          Adding a border around an element or group of elements is an easy way to create common region."
+          Ensure that links and navigation systems are visually differentiated from normal text elements, and are consistently styled."
         />
        <div className="wrapper-card">
       <div className="wrapper-content-box">
       <div className='container-button-top'>
-      <button className='container-button' style={{backgroundColor: 'rgb(73, 164, 109)'}}>Download Poster</button>
+      <button className='container-button' style={{backgroundColor: 'rgb(128, 73, 94)'}}>Download Poster</button>
     </div>
       </div>
     </div>
@@ -157,20 +217,24 @@ function Welcome(props) {
         <Containerbigpara bigpara="The principles of grouping (or Gestalt laws of grouping) are a set of principles in psychology, first proposed by Gestalt psychologists to account for the observation that humans naturally perceive objects as organized patterns and objects, a principle known as Prägnanz. Gestalt psychologists argued that these principles exist because the mind has an innate disposition to perceive patterns in the stimulus based on certain rules. These principles are organized into five categories: Proximity, Similarity, Continuity, Closure, and Connectedness." />
         <ContainerContent head="FURTHER READING" />
         <ContainerLinks
+          linktext="The Law of Similarity - Gestalt Principles"
+          linksaparate="Interaction Deisgn Foundation | Mads Soegaard"
+        />
+        <ContainerLinks
           linktext="Design Principles: Visual Perception And The Principles Of Gestalt"
           linksaparate="Steven Bradley | Smashing Magazine"
         />
-        <ContainerLinks
-          linktext="Gestalt principles"
-          linksaparate="Scholarpedia"
+         <ContainerLinks
+          linktext="Use Gestalt Laws to Improve Your UX"
+          linksaparate="Sabina Idler | Usabilla Blog"
         />
       </div>
     </div>
-    <div className="wrapper-card-next"style={{backgroundColor:'rgb(242, 126, 172)'}}>
+    <div className="wrapper-card-next"style={{backgroundColor:'rgb(129, 157, 214)'}}>
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_7' className='next-link'>Law of Prägnanz</a>
+          <a href='/Page_10' className='next-link'>Law of Uniform Connectedness</a>
           </div>
       </div>
     </div>

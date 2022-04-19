@@ -23,13 +23,13 @@ function Welcome(props) {
           </li>
           <div className="onchange-event">
           <li>
-            <a href="/Page_5">prev</a>
+            <a href="/Page_11">prev</a>
           </li>
           <div>
           <hr className="nav-line"></hr>
           </div>
           <li>
-            <a href="/Page_7">next</a>
+            <a href="/Page_13">next</a>
           </li>
           </div>
         </ul>
@@ -55,122 +55,133 @@ function Welcome(props) {
         </div>
       </nav>
       <div className="wrapper-link-container">
-      <div className="wrapper-container" style={{backgroundColor: 'rgb(73, 164, 109)'}}>
+      <div className="wrapper-container" style={{backgroundColor: 'rgb(181, 74, 72)'}}>
         <div className="container-box-bg">
           <div className="container-text">
-            <h1>06/20</h1>
-            <span>Law of Common Region</span>
+            <h1>12/20</h1>
+            <span>Occam's Razor</span>
           </div>
-          <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565 564">
               <g fill="none" fill-rule="evenodd">
-                <path fill-opacity=".1" fill="#000" d="M0 0h566v566H0z"></path>
+                <path fill-opacity=".1" fill="#000" d="M1 0h270v270H1z"></path>
+                <circle
+                  fill-opacity=".15"
+                  fill="#000"
+                  cx="100"
+                  cy="100"
+                  r="100"
+                ></circle>
+                <circle
+                  fill-opacity=".15"
+                  fill="#000"
+                  cx="171"
+                  cy="100"
+                  r="100"
+                ></circle>
+                <circle
+                  fill-opacity=".15"
+                  fill="#000"
+                  cx="101"
+                  cy="170"
+                  r="100"
+                ></circle>
+                <circle
+                  fill-opacity=".15"
+                  fill="#000"
+                  cx="171"
+                  cy="170"
+                  r="100"
+                ></circle>
                 <path
                   fill-opacity=".1"
                   fill="#000"
-                  d="M40 40h486v486H40z"
+                  d="M295 0h270v270H295z"
                 ></path>
+                <circle
+                  fill-opacity=".15"
+                  fill="#000"
+                  cx="430"
+                  cy="100"
+                  r="100"
+                ></circle>
+                <circle
+                  fill-opacity=".15"
+                  fill="#000"
+                  cx="395"
+                  cy="170"
+                  r="100"
+                ></circle>
+                <circle
+                  fill-opacity=".15"
+                  fill="#000"
+                  cx="465"
+                  cy="170"
+                  r="100"
+                ></circle>
                 <path
                   fill-opacity=".1"
                   fill="#000"
-                  d="M80 80h406v406H80z"
+                  d="M1 294h270v270H1z"
                 ></path>
                 <circle
-                  fill-opacity=".2"
+                  fill-opacity=".15"
                   fill="#000"
-                  cx="168"
-                  cy="168"
-                  r="48"
+                  cx="101"
+                  cy="394"
+                  r="100"
                 ></circle>
                 <circle
-                  fill-opacity=".2"
+                  fill-opacity=".15"
                   fill="#000"
-                  cx="284"
-                  cy="168"
-                  r="48"
+                  cx="171"
+                  cy="464"
+                  r="100"
                 ></circle>
-                <circle
-                  fill-opacity=".2"
+                <path
+                  fill-opacity=".1"
                   fill="#000"
-                  cx="398"
-                  cy="168"
-                  r="48"
-                ></circle>
-                <circle
-                  fill-opacity=".2"
-                  fill="#000"
-                  cx="167.209"
-                  cy="282.437"
-                  r="47.247"
-                ></circle>
-                <circle
-                  fill="#F4F1D0"
-                  cx="283.936"
-                  cy="282.437"
-                  r="47.247"
-                ></circle>
-                <circle
-                  fill-opacity=".2"
-                  fill="#000"
-                  cx="398"
-                  cy="282"
-                  r="48"
-                ></circle>
-                <circle
-                  fill-opacity=".2"
-                  fill="#000"
-                  cx="168"
-                  cy="398"
-                  r="48"
-                ></circle>
-                <circle
-                  fill-opacity=".2"
-                  fill="#000"
-                  cx="284"
-                  cy="398"
-                  r="48"
-                ></circle>
-                <circle
-                  fill-opacity=".2"
-                  fill="#000"
-                  cx="398"
-                  cy="398"
-                  r="48"
-                ></circle>
+                  d="M295 294h270v270H295z"
+                ></path>
+                <circle fill="#F4F1D0" cx="430" cy="429" r="100"></circle>
               </g>
             </svg>
         </div>
         <ContainerContent head="overview" />
-        <ContainerPara para="Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary." />
+        <ContainerPara para="Among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected." />
         <ContainerContent head="KEY TAKEAWAYS" />
         <ContainerFlexpara
           flexpara="
-          Adding a border around an element or group of elements is an easy way to create common region."
+          Analyze each element and remove as many as possible, without compromising the overall function."
         />
        <div className="wrapper-card">
       <div className="wrapper-content-box">
       <div className='container-button-top'>
-      <button className='container-button' style={{backgroundColor: 'rgb(73, 164, 109)'}}>Download Poster</button>
+      <button className='container-button' style={{backgroundColor: 'rgb(181, 74, 72)'}}>Download Poster</button>
     </div>
       </div>
     </div>
         <ContainerContent head="ORIGINS" />
-        <Containerbigpara bigpara="The principles of grouping (or Gestalt laws of grouping) are a set of principles in psychology, first proposed by Gestalt psychologists to account for the observation that humans naturally perceive objects as organized patterns and objects, a principle known as Prägnanz. Gestalt psychologists argued that these principles exist because the mind has an innate disposition to perceive patterns in the stimulus based on certain rules. These principles are organized into five categories: Proximity, Similarity, Continuity, Closure, and Connectedness." />
+        <Containerbigpara bigpara="Occam's razor (also Ockham's razor; Latin: lex parsimoniae 'law of parsimony') is a problem-solving principle that, when presented with competing hypothetical answers to a problem, one should select the one that makes the fewest assumptions. The idea is attributed to William of Ockham (c. 1287–1347), who was an English Franciscan friar, scholastic philosopher, and theologian." />
         <ContainerContent head="FURTHER READING" />
         <ContainerLinks
-          linktext="Design Principles: Visual Perception And The Principles Of Gestalt"
-          linksaparate="Steven Bradley | Smashing Magazine"
+          linktext="Designing with Occam’s Razor"
+          linksaparate="Jon Yablonski | Medium"
         />
         <ContainerLinks
-          linktext="Gestalt principles"
-          linksaparate="Scholarpedia"
+          linktext="Occam’s Razor: The Simplest Solution is Always the Best"
+          linksaparate="Mads Soegaard | Interaction Design Foundation"
+        />
+         <ContainerLinks
+          linktext="Occam’s Razor: A Great Principle for Designers"
+          linksaparate="Web Designer Depot"
         />
       </div>
     </div>
-    <div className="wrapper-card-next"style={{backgroundColor:'rgb(242, 126, 172)'}}>
+    <div className="wrapper-card-next"style={{backgroundColor:'rgb(55, 171, 191)'}}>
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_7' className='next-link'>Law of Prägnanz</a>
+          <a href='/Page_13' className='next-link'>Pareto Principle</a>
           </div>
       </div>
     </div>

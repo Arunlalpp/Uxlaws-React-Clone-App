@@ -23,13 +23,13 @@ function Welcome(props) {
           </li>
           <div className="onchange-event">
           <li>
-            <a href="/">prev</a>
+            <a href="/Page_6">prev</a>
           </li>
           <div>
           <hr className="nav-line"></hr>
           </div>
           <li>
-            <a href="/">next</a>
+            <a href="/Page_8">next</a>
           </li>
           </div>
         </ul>
@@ -119,7 +119,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_7' className='next-link'>Law of Proximity</a>
+          <a href='/Page_8' className='next-link'>Law of Proximity</a>
           </div>
       </div>
     </div>

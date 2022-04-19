@@ -23,13 +23,13 @@ function Welcome(props) {
           </li>
           <div className="onchange-event">
           <li>
-            <a href="/Page_2">prev</a>
+            <a href="/Page_15">prev</a>
           </li>
           <div>
           <hr className="nav-line"></hr>
           </div>
           <li>
-            <a href="/Page_4">next</a>
+            <a href="/Page_17">next</a>
           </li>
           </div>
         </ul>
@@ -55,58 +55,73 @@ function Welcome(props) {
         </div>
       </nav>
       <div className="wrapper-link-container">
-      <div className="wrapper-container" style={{backgroundColor: 'rgb(123, 178, 77)'}}>
+      <div className="wrapper-container" style={{backgroundColor: 'rgb(79, 168, 82)'}}>
         <div className="container-box-bg">
           <div className="container-text">
-            <h1>03/20</h1>
-            <span>Fitt's Law</span>
+            <h1>16/20</h1>
+            <span>Postel's Law</span>
           </div>
-          <svg viewBox="0 0 566 566" xmlns="http://www.w3.org/2000/svg">
-              <g
-                stroke="#F4F1D0"
-                stroke-width="30"
-                fill="none"
-                fill-rule="evenodd"
-              >
-                <circle cx="282.882" cy="282.882" r="267.882"></circle>
-                <circle cx="282.861" cy="282.861" r="192.861"></circle>
-                <circle cx="283.212" cy="283.212" r="119.212"></circle>
-                <circle cx="283.213" cy="283.213" r="45.213"></circle>
+          <svg viewBox="0 0 567 580" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#F4F1D0" fill-rule="evenodd">
+                <path d="M94.5 145L0 0h189z"></path>
+                <path d="M283.5 145L189 0h189z"></path>
+                <path d="M472.5 145L378 0h189z"></path>
+                <path fill-opacity=".8" d="M94.5 290L0 145h189z"></path>
+                <path fill-opacity=".8" d="M283.5 290L189 145h189z"></path>
+                <path fill-opacity=".8" d="M472.5 290L378 145h189z"></path>
+                <path fill-opacity=".6" d="M94.5 435L0 290h189z"></path>
+                <path fill-opacity=".6" d="M283.5 435L189 290h189z"></path>
+                <path fill-opacity=".6" d="M472.5 435L378 290h189z"></path>
+                <path fill-opacity=".4" d="M94.5 580L0 435h189z"></path>
+                <path fill-opacity=".4" d="M283.5 580L189 435h189z"></path>
+                <path fill-opacity=".4" d="M472.5 580L378 435h189z"></path>
               </g>
             </svg>
         </div>
         <ContainerContent head="overview" />
-        <ContainerPara para="The time to acquire a target is a function of the distance to and size of the target." />
+        <ContainerPara para="Be liberal in what you accept, and conservative in what you send." />
         <ContainerContent head="KEY TAKEAWAYS" />
         <ContainerFlexpara
           flexpara="
-          Touch targets should be large enough for users to both discern what it is and to accurately select them."
+          Be empathetic, flexible, and tolerant to any number of actions the user could possibly take. This means accepting variable input from users, translating input to meet the requirements, defining boundaries for input, and providing clear feedback to the user."
         />
-        <div className="wrapper-card">
+       <div className="wrapper-card">
       <div className="wrapper-content-box">
       <div className='container-button-top'>
-      <button className='container-button' style={{backgroundColor: 'rgb(123, 178, 77)'}}>Download Poster</button>
+      <button className='container-button' style={{backgroundColor: 'rgb(79, 168, 82)'}}>Download Poster</button>
     </div>
       </div>
     </div>
         <ContainerContent head="ORIGINS" />
-        <Containerbigpara bigpara="In 1954, psychologist Paul Fitts, examining the human motor system, showed that the time required to move to a target depends on the distance to it, yet relates inversely to its size. By his law, fast movements and small targets result in greater error rates, due to the speed-accuracy trade-off. Although multiple variants of Fitts’ law exist, all encompass this idea. Fitts’ law is widely applied in user experience (UX) and user interface (UI) design. For example, this law influenced the convention of making interactive buttons large (especially on finger-operated mobile devices)—smaller buttons are more difficult (and time-consuming) to click. Likewise, the distance between a user’s task/attention area and the task-related button should be kept as short as possible." />
+        <Containerbigpara bigpara="Postel's Law (also known as the Robustness Principle) was formulated by Jon Postel, an early pioneer of the Internet. The Law is a design guideline for software, specifically in regards to TCP and networks." />
         <ContainerContent head="FURTHER READING" />
         <ContainerLinks
-          linktext="Fitts’s Law: The Importance of Size and Distance in UI Design"
-          linksaparate="Interaction Design Foundation"
+          linktext="Design Systems and Postel’s Law"
+          linksaparate="Mark Boulton"
         />
         <ContainerLinks
-          linktext="Fitts’s Law on Wikipedia"
+          linktext="Robustness and Least Power"
+          linksaparate="Adactio"
+        />
+        <ContainerLinks
+          linktext="Your Website has Two Faces"
+          linksaparate="A List Apart"
+        />
+         <ContainerLinks
+          linktext="Design with Difficult Data"
+          linksaparate="Steven Garrity"
+        />
+         <ContainerLinks
+          linktext="Robustness Principle"
           linksaparate="Wikipedia"
         />
       </div>
     </div>
-    <div className="wrapper-card-next"style={{backgroundColor:'rgb(72, 151, 190)'}}>
+    <div className="wrapper-card-next"style={{backgroundColor:'rgb(137, 89, 169)'}}>
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_4' className='next-link'>Hick's Law</a>
+          <a href='/Page_17' className='next-link'>Serial Position Effect</a>
           </div>
       </div>
     </div>

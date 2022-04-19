@@ -24,13 +24,13 @@ function Welcome(props) {
           </li>
           <div className="onchange-event">
           <li>
-            <a href="/">prev</a>
+            <a href="/Page_1">prev</a>
           </li>
           <div>
           <hr className="nav-line"></hr>
           </div>
           <li>
-            <a href="/">next</a>
+            <a href="/Page_3">next</a>
           </li>
           </div>
         </ul>
