@@ -13,8 +13,9 @@
     font-size: 1.3rem;
     font-weight: 500;
     font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: none;
     cursor: pointer;
-    letter-spacing: 0.1em;
     transition: all 0.5s;
 }
 

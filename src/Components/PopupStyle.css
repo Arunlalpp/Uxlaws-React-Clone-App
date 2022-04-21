@@ -67,7 +67,7 @@
   font-weight: 600;
   border: solid 1px transparent;
 }
-.content a:hover
+.content a:active
 {
   border: solid 1px #fff;
 }
