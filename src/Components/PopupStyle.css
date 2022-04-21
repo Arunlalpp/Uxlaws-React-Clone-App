@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
 .popup-box {
   position: fixed;
   background: #000000;
@@ -36,12 +38,13 @@
 .list
 {
   display: block;
+  margin-top: 2rem;
 
 }
 .content-list
 {
-  padding-top: 3rem;
-  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-left: 2.6rem;
 }
 .button-inner-text
 {
@@ -56,15 +59,20 @@
 }
 .number-list
 {
-  color: #fff;
+  color: #ffffff;
   font-size: 0.9rem;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .content a
 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-left: 0.8rem;
   color: #fff;
   font-weight: 600;
+  font-family: inherit;
+  letter-spacing: none;
+  line-height: 2rem;
+  text-transform: none;
   border: solid 1px transparent;
 }
 .content a:active
@@ -73,19 +81,23 @@
 }
 .right-container
 {
-  padding-top: 1.5rem;
-  margin-left: 6rem;
-  width: 40%;
+  margin-top: 2rem;
+  margin-left: 3.4rem;
+  width: 38%;
 }
-.right-container h1
+.popmenu-heading
 {
   color: #fff;
   font-size: 1.8rem;
+  padding: 0;
+  margin: 1rem 0;
 }
 .right-container article
 {
   color: #fff;
   font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 1.75rem;
   font-family: monospace;
+  margin: 0;
+  padding: 0;
 }

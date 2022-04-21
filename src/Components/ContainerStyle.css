@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
 .onchange-event {
   display: flex;
-  margin-left: 26rem;
+  margin-left: 27rem;
 }
 .nav-line {
   margin: 1.5rem;
   width: 1.5rem;
+}
+.next-left
+{
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
 }
 .wrapper-container {
   background-color: rgb(80, 100, 133);
@@ -31,7 +39,7 @@
     font-size: 1.5rem;
     color: #ffff;
     font-weight: 500;
-    font-family: monospace;
+    font-family: 'IBM Plex Mono', monospace;
 }
 .container-text span {
   font-size: 3rem;

@@ -209,7 +209,7 @@ function PopupContent() {
       </div>
       <div className="right-container">
         <div className="right-text">
-          <h1>Overview</h1>
+          <h1 className="popmenu-heading">Overview</h1>
           <article>
             Laws of UX is a collection of the maxims and principles that
             designers can consider when building user interfaces. It was created
@@ -217,7 +217,7 @@ function PopupContent() {
           </article>
         </div>
         <div className="right-text">
-          <h1>The Book</h1>
+          <h1 className="popmenu-heading">The Book</h1>
           <article>
             An expansion of the ideas found on this site is now available in
             book form, titled Laws of UX : Using Psychology to Design Better
@@ -226,14 +226,14 @@ function PopupContent() {
           </article>
         </div>
         <div className="right-text">
-          <h1>Posters</h1>
+          <h1 className="popmenu-heading">Posters</h1>
           <article>
             High-resolution posters are available for purchase via The Online
             Store of Jon Yablonski
           </article>
         </div>
         <div className="right-text">
-          <h1>Colophon</h1>
+          <h1 className="popmenu-heading">Colophon</h1>
           <article>
             Tools used to create this site include paper, pencil and Sketch App
             for design, Gulp for development workflow automation, Sass for CSS
