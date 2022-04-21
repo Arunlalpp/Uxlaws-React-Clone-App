@@ -28,7 +28,9 @@ function Welcome(props) {
               <hr className="nav-line"></hr>
             </div>
             <li>
-              <a className="next-left" href="/Page_2">next</a>
+              <a className="next-left" href="/Page_2">
+                next
+              </a>
             </li>
           </div>
         </ul>
@@ -89,14 +91,21 @@ function Welcome(props) {
             An aesthetically pleasing design creates a positive response in
             people’s brains and leads them to believe the design actually works
             better."
+            para="People are more tolerant of minor usability issues when the design of a product or service is aesthetically pleasing."
+            last = "Visually pleasing design can mask usability problems and prevent issues from being discovered during usability testing."
           />
           <div className="wrapper-card">
-      <div className="wrapper-content-box">
-      <div className='container-button-top'>
-      <button className='container-button' style={{backgroundColor: 'rgb(80, 100, 133)'}}>Download Poster</button>
-    </div>
-      </div>
-    </div>
+            <div className="wrapper-content-box">
+              <div className="container-button-top">
+                <button
+                  className="container-button"
+                  style={{ backgroundColor: "rgb(80, 100, 133)" }}
+                >
+                  Download Poster
+                </button>
+              </div>
+            </div>
+          </div>
           <ContainerContent head="ORIGINS" />
           <Containerbigpara bigpara="The aesthetic-usability effect was first studied in the field of human–computer interaction in 1995. Researchers Masaaki Kurosu and Kaori Kashimura from the Hitachi Design Center tested 26 variations of an ATM UI, asking the 252 study participants to rate each design on ease of use, as well as aesthetic appeal. They found a stronger correlation between the participants’ ratings of aesthetic appeal and perceived ease of use than the correlation between their ratings of aesthetic appeal and actual ease of use. Kurosu and Kashimura concluded that users are strongly influenced by the aesthetics of any given interface, even when they try to evaluate the underlying functionality of the system." />
           <ContainerContent head="FURTHER READING" />
@@ -113,14 +122,20 @@ function Welcome(props) {
             linksaparate="Abhishek Chakraborty | Medium"
           />
         </div>
-        <div className="wrapper-card-next"style={{backgroundColor:'rgb(196, 81, 157)'}}>
-      <div className="wrapper-content-box">
-          <div className='next-text-box'>
-          <span>next</span>
-          <a href='/Page_2' className='next-link'>Doherty Threshold</a>
+        <div className="blue"></div>
+        <div
+          className="wrapper-card-next"
+          style={{ backgroundColor: "rgb(196, 81, 157)" }}
+        >
+          <div className="wrapper-content-box">
+            <div className="next-text-box">
+              <span>next</span>
+              <a href="/Page_2" className="next-link">
+                Doherty Threshold
+              </a>
+            </div>
           </div>
-      </div>
-    </div>
+        </div>
       </div>
     </div>
   );

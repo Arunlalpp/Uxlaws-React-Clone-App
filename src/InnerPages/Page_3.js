@@ -102,6 +102,7 @@ function Welcome(props) {
         />
       </div>
     </div>
+    <div className="blue"></div>
     <div className="wrapper-card-next"style={{backgroundColor:'rgb(72, 151, 190)'}}>
       <div className="wrapper-content-box">
           <div className='next-text-box'>

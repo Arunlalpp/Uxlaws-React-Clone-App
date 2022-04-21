@@ -220,9 +220,9 @@ function PopupContent() {
           <h1 className="popmenu-heading">The Book</h1>
           <article>
             An expansion of the ideas found on this site is now available in
-            book form, titled Laws of UX : Using Psychology to Design Better
-            Products and Services. Translated editions of the book are available
-            in German and Korean.
+            book form, titled <span>Laws of UX : Using Psychology to Design Better
+            Products and Services.</span> Translated editions of the book are available
+            in <span>German</span> and <span>Korean</span>.
           </article>
         </div>
         <div className="right-text">

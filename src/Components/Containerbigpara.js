@@ -8,7 +8,7 @@ function Containerbigpara(props) {
         <div className="big-para">
           <span>{props.bigpara}</span>
         </div>
-        <a href="/">Sources</a>
+        <a  className="sources-text" href="/">Sources</a>
       </div>
     </div>
   );

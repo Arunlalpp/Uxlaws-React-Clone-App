@@ -7,8 +7,8 @@ function ContainerFlexpara(props) {
       <div className="wrapper-content-box">
         <div className="para-flex">
           <span>{props.flexpara}</span> 
-          <span>{props.flexpara}</span>
-          <span>{props.flexpara}</span>
+          <span>{props.para}</span>
+          <span>{props.last}</span>
         </div>
       </div>
     </div>
