@@ -104,7 +104,7 @@ function CardBoxes(props) {
           <div className="wrapper-text-1">
             <span>02</span>
             <hr></hr>
-            <p>Productivity soars when a computer and its users interact at a pace 400ms that ensures that neither has to wait on the other.</p>
+            <p>Productivity soars when a computer and its users interact at a pace (400ms) that ensures that neither has to wait on the other.</p>
           </div>
           <CardButton />
         </div>

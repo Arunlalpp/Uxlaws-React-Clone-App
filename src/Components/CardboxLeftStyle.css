@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    padding-top: 7rem;
-    padding-right: 1rem;
+    padding-top: 9rem;
+    padding-right: 6rem;
 }
 .container-1 {
     max-width: 98%;
@@ -37,13 +37,14 @@
 .end-box-1 {
     background-color:  rgb(196, 81, 157);
     padding: 3.5rem;
+    /* height: 60vh; */
 }
 
 .wrapper-1
 {
     display: flex;
     flex-direction: column;
-    max-width: 25%;
+    max-width: 26%;
 }
 .wrapper-text-1 {
     margin-left: 5rem;
@@ -53,7 +54,7 @@
 .wrapper-text-1 span {
     color: antiquewhite;
     font-size: 4.5rem;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 5rem;
     margin-left: 0.2rem;
 }
@@ -62,14 +63,15 @@ hr {
     width: 3rem;
     height: 0.1rem;
     margin: 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .wrapper-text-1 p {
     color: antiquewhite;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5rem;
-    font-family: monospace;
+    letter-spacing: 0.1em;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .flex-button {
