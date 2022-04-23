@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
@@ -38,8 +41,8 @@ body {
   
   
   nav ul li a  {
-    font-family: sans-serif;
-    line-height: 2rem;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    line-height: 1.5;
     margin: 0;
     display: flex;
     padding: 0.5rem 1rem;
@@ -47,7 +50,8 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     color: #ffff;
-    letter-spacing: 1px;
+    letter-spacing: .1em;
+    border: 0 solid #e5e7eb;
     transition: 0.2s ease-in-out;
   }
   .nav-toggle
@@ -60,26 +64,29 @@ body {
     border: none;
     background: #0000;
     border: solid 1px #fff;
-    width: 6.5rem;
+    width: 6.4rem;
     height: 2.6rem;
     display: flex;
     align-items: center;
     margin-left: 0.5rem;
+    margin-top: 0.1rem;
     cursor: pointer;
   }
   .button-text
   {
-    font-size: 15px;
-    color: #fff;
+    font-size: 1rem;
+    color: antiquewhite;
+    line-height: inherit;
     margin-left: 0.4rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-weight: 500;
   }
   .toggle svg
   {
     fill: #fff;
     width: 3.5rem;
-    margin-top: 0.3rem;
-    margin-left: 0.7rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
   }
   

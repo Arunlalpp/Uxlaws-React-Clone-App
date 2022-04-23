@@ -2,11 +2,22 @@
 
 .onchange-event {
   display: flex;
-  margin-left: 27rem;
+  margin-left: 26.9rem;
+  align-items: center;
 }
-.nav-line {
-  margin: 1.3rem;
-  width: 1.5rem;
+.onchange-event li a
+{
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.onchange-event hr
+{
+    margin: 1.3rem;
+    width: 1.5rem;
 }
 .next-left
 {
@@ -59,7 +70,7 @@
 {
     display: flex;
     align-items: center;
-    padding-top: 6rem;
+    padding-top: 2rem;
 }
 .horizone-line hr
 {
@@ -76,7 +87,7 @@
     font-size: 1rem;
     color: #ffff;
     font-family: monospace;
-    margin-top: 1.8rem;
+    margin-top: 0.8rem;
     margin-left: 0.4rem;
     text-transform: uppercase;
 }
@@ -102,7 +113,7 @@
     padding-right: 2.5rem;
     margin-top: 2rem;
     font-size: 1.2rem;
-    line-height: 1.8;
+    line-height: 2rem;
     font-weight: 600;
     font-family: sans-serif;
 }
@@ -130,7 +141,7 @@
 .container-link
 {
     padding-top: 2.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 .container-link span 
 {
@@ -143,6 +154,7 @@
     font-family: sans-serif;
     text-decoration: underline;
     font-weight: 600;
+    line-height: 1;
 }
 .link-separate
 {
@@ -156,7 +168,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 7rem;
+    padding-top: 6rem;
     padding-bottom: 7rem;
 }
 .next-text-box span

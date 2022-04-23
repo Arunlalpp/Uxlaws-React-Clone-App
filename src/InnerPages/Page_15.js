@@ -6,6 +6,9 @@ import ContainerContent from "../Components/ContainerContent";
 import ContainerFlexpara from "../Components/ContainerFlexpara";
 import ContainerLinks from "../Components/ContainerLinks";
 import ContainerPara from "../Components/ContainerPara";
+import { Link } from "react-router-dom";
+
+
 
 function Welcome(props) {
 
@@ -19,18 +22,18 @@ function Welcome(props) {
        <nav className="main" style={{background:'transparent'}}>
         <ul>
           <li>
-            <a href="/">LAWS OF UX</a>
+            <Link to="/">LAWS OF UX</Link>
           </li>
           <div className="onchange-event">
-          <li>
-            <a href="/Page_14">prev</a>
-          </li>
-          <div>
-          <hr className="nav-line"></hr>
-          </div>
-          <li>
-            <a href="/Page_16">next</a>
-          </li>
+            <li>
+              <Link to="/Page_14">prev</Link>
+            </li>
+            <hr></hr>
+            <li>
+              <Link to ="/Page_16" className="next-left">
+                next
+              </Link>
+            </li>
           </div>
         </ul>
         <div className="nav-toggle">

@@ -6,6 +6,7 @@ import ContainerContent from "../Components/ContainerContent";
 import ContainerFlexpara from "../Components/ContainerFlexpara";
 import ContainerLinks from "../Components/ContainerLinks";
 import ContainerPara from "../Components/ContainerPara";
+import { Link } from "react-router-dom";
 
 function Welcome(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,19 +19,17 @@ function Welcome(props) {
       <nav className="main" style={{ background: "transparent" }}>
         <ul>
           <li>
-            <a href="/">LAWS OF UX</a>
+            <Link to="/">LAWS OF UX</Link>
           </li>
           <div className="onchange-event">
             <li>
-              <a href="/Page_20">prev</a>
+              <Link to="/Page_20">prev</Link>
             </li>
-            <div>
-              <hr className="nav-line"></hr>
-            </div>
+            <hr></hr>
             <li>
-              <a className="next-left" href="/Page_2">
+              <Link to ="/Page_2" className="next-left">
                 next
-              </a>
+              </Link>
             </li>
           </div>
         </ul>

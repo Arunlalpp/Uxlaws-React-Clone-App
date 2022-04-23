@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+
 .flex-button {
     margin-left: 5rem;
 }
@@ -10,11 +13,11 @@
     outline: none;
     border: none;
     color: #ffff;
-    font-size: 1.3rem;
+    font-size: 1.125rem;
     font-weight: 500;
-    font-family: monospace;
+    font-family: 'IBM Plex Sans', sans-serif !important;
     text-transform: uppercase;
-    letter-spacing: none;
+    letter-spacing: .1rem;
     cursor: pointer;
     transition: all 0.5s;
 }
