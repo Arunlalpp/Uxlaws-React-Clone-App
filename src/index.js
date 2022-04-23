@@ -11,7 +11,7 @@ import {
   Route,
 } from "react-router-dom";
 import CardBoxes from "./Components/CardBoxes";
-import Page_1 from "./InnerPages/Page_1";
+import Page1 from "./InnerPages/Page1";
 import Page_2 from "./InnerPages/Page_2";
 import Page_3 from "./InnerPages/Page_3";
 import Page_4 from "./InnerPages/Page_4";
@@ -31,15 +31,17 @@ import Page_17 from "./InnerPages/Page_17";
 import Page_18 from "./InnerPages/Page_18";
 import Page_19 from "./InnerPages/Page_19";
 import Page_20 from "./InnerPages/Page_20";
+import ScrollToTop from "./Components/ScrollToTop";
+
+
 const rootElement = document.getElementById("root");
-
-
 
   render(
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<CardBoxes />} />
-        <Route path="Page_1" element={<Page_1 />} />
+        <Route path="Page1" element={<Page1 />} />
         <Route path="Page_2" element={<Page_2 />} />
         <Route path="Page_3" element={<Page_3 />} />
         <Route path="Page_4" element={<Page_4 />} />

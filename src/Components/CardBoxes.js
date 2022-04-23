@@ -10,7 +10,7 @@ function CardBoxes(props) {
     <div className="black">
       <Navbar />
       <div className="box-container">
-         <Link to ='/Page_1' className="container">
+         <Link to ='/Page1' className="container">
           <div className="box-text">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
