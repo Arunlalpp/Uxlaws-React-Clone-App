@@ -129,9 +129,9 @@ function Welcome(props) {
           <div className="wrapper-content-box">
             <div className="next-text-box">
               <span>next</span>
-              <a href="/Page_2" className="next-link">
+              <Link to="/Page_2" className="next-link">
                 Doherty Threshold
-              </a>
+              </Link>
             </div>
           </div>
         </div>

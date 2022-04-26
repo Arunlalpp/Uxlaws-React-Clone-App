@@ -228,8 +228,8 @@ function PopupContent() {
         <div className="right-text">
           <h1 className="popmenu-heading">Posters</h1>
           <article>
-            High-resolution posters are available for purchase via The Online
-            Store of Jon Yablonski
+            High-resolution posters are available for purchase via <span>The Online
+            Store of Jon Yablonski</span> 
           </article>
         </div>
         <div className="right-text">
