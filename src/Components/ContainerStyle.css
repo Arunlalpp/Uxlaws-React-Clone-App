@@ -77,7 +77,7 @@
 }
 .wrapper-content-box
 {
-    max-width: 75%;
+    max-width: 76%;
     margin: 0 auto;
 }
 .content-text
@@ -149,7 +149,7 @@
 {
     color: #ffff;
     font-size: 2.25rem;
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif !important;
     text-decoration: underline;
     font-weight: 600;
     line-height: 1;
@@ -166,15 +166,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 6rem;
+    padding-top: 6.4rem;
     padding-bottom: 7rem;
 }
 .next-text-box span
 {
     color: rgb(34, 34, 34);
     text-transform: uppercase;
-    font-size: 1.2rem;
-    font-family: monospace;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif !important;
 }
 .blue
 {
@@ -187,8 +189,9 @@
     font-weight: 600;
     font-size: 3rem;
     border-bottom: none;
+    line-height: 1;
     color: #ffff;
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif !important;
 }
 .inline
 {
