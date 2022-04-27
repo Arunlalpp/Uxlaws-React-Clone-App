@@ -184,7 +184,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_13' className='next-link'>Pareto Principle</a>
+          <Link to ='/Page_13' className='next-link'>Pareto Principle</Link>
           </div>
       </div>
     </div>

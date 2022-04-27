@@ -123,7 +123,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_15' className='next-link'>Peak-End Rule</a>
+          <Link to ='/Page_15' className='next-link'>Peak-End Rule</Link>
           </div>
       </div>
     </div>

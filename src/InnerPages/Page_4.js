@@ -391,7 +391,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_5' className='next-link'>Jakob's Law</a>
+          <Link to='/Page_5' className='next-link'>Jakob's Law</Link>
           </div>
       </div>
     </div>

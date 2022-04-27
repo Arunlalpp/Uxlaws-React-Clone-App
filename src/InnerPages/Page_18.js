@@ -122,7 +122,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_19' className='next-link'>Von Restorff Effect</a>
+          <Link to ='/Page_19' className='next-link'>Von Restorff Effect</Link>
           </div>
       </div>
     </div>

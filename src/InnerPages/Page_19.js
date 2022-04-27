@@ -227,7 +227,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_20' className='next-link'>Zeigarnik Effect</a>
+          <Link to ='/Page_20' className='next-link'>Zeigarnik Effect</Link>
           </div>
       </div>
     </div>

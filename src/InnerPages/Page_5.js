@@ -106,7 +106,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_6' className='next-link'>Law of Common Region</a>
+          <Link to='/Page_6' className='next-link'>Law of Common Region</Link>
           </div>
       </div>
     </div>

@@ -28,7 +28,7 @@ function Welcome(props) {
             </li>
             <hr></hr>
             <li>
-              <Link to ="/Page_1" className="next-left">
+              <Link to ="/Page1" className="next-left">
                 next
               </Link>
             </li>

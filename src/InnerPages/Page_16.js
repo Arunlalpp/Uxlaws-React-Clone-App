@@ -124,7 +124,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_17' className='next-link'>Serial Position Effect</a>
+          <Link to ='/Page_17' className='next-link'>Serial Position Effect</Link>
           </div>
       </div>
     </div>

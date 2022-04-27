@@ -24,7 +24,7 @@ function Welcome(props) {
           </li>
           <div className="onchange-event">
             <li>
-              <Link to="/Page_1">prev</Link>
+              <Link to="/Page1">prev</Link>
             </li>
             <hr></hr>
             <li>
@@ -126,7 +126,7 @@ function Welcome(props) {
       <div className="wrapper-content-box">
           <div className='next-text-box'>
           <span>next</span>
-          <a href='/Page_3' className='next-link'>Fitt's Law</a>
+          <Link to ='/Page_3' className='next-link'>Fitt's Law</Link>
           </div>
       </div>
     </div>
