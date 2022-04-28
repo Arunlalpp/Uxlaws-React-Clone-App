@@ -52,7 +52,7 @@ function CardBoxes(props) {
               that’s more usable.
             </p>
           </div>
-          <CardButton />
+          <CardButton redirect = "/Page1" />
         </div>
         </div>
 
@@ -107,7 +107,7 @@ function CardBoxes(props) {
             <hr></hr>
             <p>Productivity soars when a computer and its users interact at a pace (400ms) that ensures that neither has to wait on the other.</p>
           </div>
-          <CardButton />
+          <CardButton redirect="/Page_2" />
         </div>
       </div>
 
@@ -150,7 +150,7 @@ function CardBoxes(props) {
               size of the target.
             </p>
           </div>
-          <CardButton />
+          <CardButton   redirect="/Page_3"/>
         </div>
       </div>
 
@@ -467,7 +467,7 @@ function CardBoxes(props) {
               complexity of choices.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_4"/>
         </div>
       </div>
 
@@ -509,7 +509,7 @@ function CardBoxes(props) {
               they already know.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_5"/>
         </div>
       </div>
 
@@ -616,7 +616,7 @@ function CardBoxes(props) {
               area with a clearly defined boundary.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_6"/>
         </div>
       </div>
 
@@ -673,7 +673,7 @@ function CardBoxes(props) {
               requires the least cognitive effort of us.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_7"/>
         </div>
       </div>
 
@@ -747,7 +747,7 @@ function CardBoxes(props) {
               grouped together.
             </p>
           </div>
-          <CardButton />
+          <CardButton redirect="/Page_8"/>
         </div>
       </div>
 
@@ -915,7 +915,7 @@ function CardBoxes(props) {
               separated.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_9"/>
         </div>
       </div>
 
@@ -989,7 +989,7 @@ function CardBoxes(props) {
               than elements with no connection.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_10"/>
         </div>
       </div>
       <div className="box-container">
@@ -1347,7 +1347,7 @@ function CardBoxes(props) {
               their working memory.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_11"/>
         </div>
       </div>
 
@@ -1461,7 +1461,7 @@ function CardBoxes(props) {
               the fewest assumptions should be selected.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_12"/>
         </div>
       </div>
       <div className="box-container">
@@ -1639,7 +1639,7 @@ function CardBoxes(props) {
               the effects come from 20% of the causes.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_13"/>
         </div>
       </div>
 
@@ -1695,7 +1695,7 @@ function CardBoxes(props) {
               Any task will inflate until all of the available time is spent.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_14"/>
         </div>
       </div>
 
@@ -1893,7 +1893,7 @@ function CardBoxes(props) {
               moment of the experience.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_15"/>
         </div>
       </div>
 
@@ -1938,7 +1938,7 @@ function CardBoxes(props) {
               Be liberal in what you accept, and conservative in what you send.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_16"/>
         </div>
       </div>
       <div className="box-container">
@@ -2089,7 +2089,7 @@ function CardBoxes(props) {
               in a series.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_17"/>
         </div>
       </div>
 
@@ -2134,7 +2134,7 @@ function CardBoxes(props) {
               which cannot be reduced.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_18"/>
         </div>
       </div>
       <div className="box-container">
@@ -2293,7 +2293,7 @@ function CardBoxes(props) {
               that differs from the rest is most likely to be remembered.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_19"/>
         </div>
       </div>
       <div className="box-container-1">
@@ -2373,7 +2373,7 @@ function CardBoxes(props) {
               completed tasks.
             </p>
           </div>
-          <CardButton />
+          <CardButton  redirect="/Page_20"/>
         </div>
       </div>
       <ScrollButton />

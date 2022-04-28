@@ -1,12 +1,11 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-function CardButton() {
+function CardButton({redirect="/Page1"}) {
+
   return (
     <div className='flex-button'>
-      <>
-      <button  to='/Page1'  className='end-button'>Learn more</button>
-        </>
+    <Link to ={redirect} className='end-button'>Learn more</Link>
     </div>
   )
 }
