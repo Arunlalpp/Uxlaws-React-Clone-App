@@ -3,6 +3,7 @@
 
 .flex-button {
     margin-left: 5rem;
+    margin-top: 0.8rem;
 }
 
 .end-button {
@@ -19,7 +20,7 @@
     text-transform: uppercase;
     letter-spacing: .1rem;
     cursor: pointer;
-    padding:1rem;
+    padding:0.9rem 1.55rem;
     transition: all 0.5s;
 }
 

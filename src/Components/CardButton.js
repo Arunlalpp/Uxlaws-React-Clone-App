@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function CardButton({redirect="/Page1"}) {
+function CardButton({redirect}) {
 
   return (
     <div className='flex-button'>
